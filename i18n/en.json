@@ -1,0 +1,65 @@
+{
+  "My_profile": "My profile",
+  "Profile": {
+    "Accounts": {
+      "Name": "Account",
+      "Buttons": {
+        "Change_Profile_Picture": "Change Profile Picture",
+        "Change_Password": {
+          "Name": "Change Password",
+          "Current_Password": "Current Password",
+          "New_Password": "New Password",
+          "Confirm_Password": "Confirm Password",
+          "Input_Password": "Input Password"
+        },
+        "First_Name": "First Name",
+        "Last_Name": "Last Name",
+        "Phone": "Phone",
+        "Email": "Email",
+        "Save_Profile": "Save Profile",
+        "Edit_Profile": "Edit Profile"
+      }
+    }
+  },
+  "Address": {
+    "Name": "Address",
+    "Buttons": {
+      "Add_New_Address": "Add New Address",
+      "Edit_Address": "Edit Address",
+      "Delete": "Delete",
+      "Yes": "Yes",
+      "No": "No"
+    },
+    "Delete_address": "Delete address",
+    "Are_you_sure_you_want_to_delete_this_address": "Are you sure you want to delete this address?",
+    "Edit_Address": "Edit Address",
+    "City": "City",
+    "State": "State",
+    "Country": "Country",
+    "Address_Line_1": "Address Line 1",
+    "Address_Line_2": "Address Line 2",
+    "Postcode": "Postcode",
+    "Notes": "Notes",
+    "Save": "Save"
+  },
+  "Settings": {
+    "Name": "Settings",
+    "Languages": "Languages",
+    "English": "English",
+    "Arabic": "Arabic",
+    "Notifications": "Notifications"
+  },
+  "Store_Profile": {
+    "Name": "Store Profile"
+  },
+  "Promotions": {
+    "Name": "Promotions"
+  },
+  "Store_Questions": {
+    "Name": "Store Questions"
+  },
+  "Product_Models": {
+    "Name": "Product 3D Models"
+  },
+  "Global": {}
+}

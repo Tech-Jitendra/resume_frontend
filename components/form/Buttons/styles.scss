@@ -1,0 +1,116 @@
+@use '../../../assets/styles/variables';
+
+.oss-btn {
+    background-color: variables.$secondary-color;
+    border-color: variables.$secondary-color;
+    border-style: none;
+    color: #fff;
+    border-radius: 24px;
+    padding:0.6rem 0 0.6rem 0;
+    font-family: variables.$font-family;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+.oss-primary-btn {
+    background-color: variables.$primary-color;
+    border-color: variables.$primary-color;
+    border-style: none;
+    color: #fff;
+    border-radius: 24px;
+    padding:0.6rem 0 0.6rem 0;
+    font-family: variables.$font-family;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2rem;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.filter-item{
+    padding: 0.6rem;
+    text-align: center;
+    background-color: variables.$light-gray;
+    color: variables.$grayed-color;
+    width: 100%; 
+    margin-right: 1rem;
+    border-radius: 20px;
+
+    &:focus {
+            outline: none !important;
+            box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important; // or none
+    }
+
+}
+.active-btn {
+    background-color: variables.$secondary-color;
+    color: #fff;
+
+    &:focus {
+        color: #fff;
+    }
+}
+
+.adduser-btn {
+    padding: 0.5em 1.25em 0.5em 0.5em;
+    background: #3ED0A3;
+    border-radius: 24px;
+    color: #fff;
+
+    &:hover {
+        color: #fff;
+    }
+    
+    &:focus {
+        outline: none !important;
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important; // or none
+    }
+    .icon-container {
+        position: relative;
+        padding: 0; 
+        background: #fff;
+        border-radius: 50%;
+        width: 1em;
+        text-align: center;
+        height: 1em;
+        .icon {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+.create-new-btn {
+    padding: 0.5em 1.25em 0.5em 0.5em;
+    background: #3ed0a3;
+    border-radius: 24px;
+    color: #fff;
+    min-width: 10.6em;
+
+    &:hover {
+        color: #fff;
+    }
+
+    &:focus {
+        outline: none !important;
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important; // or none
+    }
+    .icon-container {
+        position: relative;
+        background: #fff;
+        border-radius: 50%;
+        width: 1em;
+        text-align: center;
+        height: 1em;
+        .icon {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

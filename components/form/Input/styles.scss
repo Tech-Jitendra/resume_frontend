@@ -1,0 +1,21 @@
+@use '../../../assets/styles/variables';
+
+
+
+.input-field {
+    width: 100%;
+    border-color: variables.$grayed-color;
+    border-width: 0 0 1px 0;
+    padding: 1.35rem 0;
+    font-size: 1.2rem;
+    //font-weight: 500;
+
+    &:focus-visible {
+        outline-width: 0;
+    }
+    &::placeholder {
+        color: variables.$grayed-color;
+        font-size: 1.2rem;
+        font-family: variables.$font-family;
+    }
+}
