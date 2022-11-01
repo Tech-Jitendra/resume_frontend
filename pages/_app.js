@@ -1,5 +1,4 @@
 import "../styles/globals.css"
-import "antd/dist/antd.css"
 import All_Page from "../components/All_Page"
 import { useState, useEffect } from "react"
 import { Bars } from 'react-loader-spinner'

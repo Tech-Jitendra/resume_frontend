@@ -1,7 +1,6 @@
 import styled from "styled-components";
 // import globalKeyStore from "../models/api/global-key-store"
 import { observer } from "mobx-react-lite"
-import Header from "./global/Header.js"
 import { Bars } from 'react-loader-spinner'
 import { useState } from "react";
 import Meta from "./Head"
@@ -66,7 +65,7 @@ export const All_Page = observer(({ children }) => {
     // style={globalKeyStore.isLoading ? { overflow: 'hidden' } : { overflowX: 'hidden' }} 
     >
       {/* <Meta /> */}
-      <Header />
+      {/* <Header /> */}
       <Main>{children}</Main>
       {/* <Footer /> */}
     </div >

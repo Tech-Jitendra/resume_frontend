@@ -1,6 +1,3 @@
-// import Hero from "../components/global/Hero";
-import Link from "next/link";
-import { Row, Col } from "antd";
 import styled from "styled-components";
 // import { useStores } from "../models"
 import { observer } from "mobx-react-lite"
